@@ -11,4 +11,4 @@
 使用 BlurMaskFilter实现
 可以较好的实现一个扩散阴影的效果，可以支持阴影使用渐变色，也可以是图片颜色的延伸
 实现效果
-
+![https://github.com/525642022/shadwoView/blob/master/1.png]
