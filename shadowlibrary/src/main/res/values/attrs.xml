@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShadowViewGroup">
+        <attr name="containerShadowColor" format="color"/>
+        <attr name="containerShadowRadius" format="dimension"/>
+        <attr name="containerDeltaLength" format="dimension"/>
+        <attr name="containerCornerRadius" format="dimension"/>
+        <attr name="deltaX" format="dimension"/>
+        <attr name="deltaY" format="dimension"/>
+        <attr name="enable" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="ShadowTextView">
+    <attr name="shadowTextColor" format="color"/>
+    <attr name="shadowBgStartColor" format="color"/>
+    <attr name="shadowBgEndColor" format="color"/>
+    <attr name="shadowSelectEndColor" format="color"/>
+    <attr name="shadowStartColor" format="color"/>
+    <attr name="shadowSelectStartColor" format="color"/>
+    <attr name="shadowEndColor" format="color"/>
+    <attr name="shadowTextRadius" format="dimension"/>
+    <attr name="shadowTextCornerRadius" format="dimension"/>
+    <attr name="shadowTextSize" format="dimension"/>
+    <attr name="shadowText" format="string"/>
+    </declare-styleable>
+</resources>
