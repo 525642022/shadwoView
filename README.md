@@ -1,8 +1,7 @@
 这里面包括两个两个自定义View 和一个自定义ViewGrop
 第一个自定义View  
 
-
-<com.example.shadowlibrary.MaskTextView
+        <com.example.shadowlibrary.MaskTextView
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_gravity="center_horizontal"
@@ -10,6 +9,8 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
             app:shadowText="自定义View实现阴影" />
+
+    
             
             
 使用 BlurMaskFilter实现
@@ -22,8 +23,7 @@
 第二个自定义Views使用setShadowLayer实现
 
 
-
-  <com.example.shadowlibrary.ShadowTextView
+        <com.example.shadowlibrary.ShadowTextView
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_gravity="center_horizontal"
@@ -32,9 +32,8 @@
             android:layout_marginEnd="20dp"
             app:shadowText="自定义View实现阴影"
             app:shadowTextRadius="10dp" />
-            
-            
-            
+
+    
             
  实现效果
  
