@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccentAA">#AAD81B60</color>
+    <color name="color2C2C2C">#2C2C2C</color>
+    <color name="color9B9B9B">#9B9B9B</color>
+    <color name="color6B6B6B">#6B6B6B</color>
+    <color name="colotransparency5">#0D000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorFDA492">#FDA492</color>
+    <color name="colorDF654C">#DF654C</color>
+    <color name="colorD0021b">#D0021b</color>
+    <color name="color4A90E2">#4A90E2</color>
+    <color name="color4CA866">#4CA866</color>
+    <color name="colorD0D0D0">#D0D0D0</color>
+    <color name="colorE9E9E9">#E9E9E9</color>
+    <color name="colorF7F7F7">#F7F7F7</color>
+    <color name="colorEAEAEA">#EAEAEA</color>
+    <color name="color4A4A4A">#4A4A4A</color>
+
+
+    <color name="colorF0F0F0">#F0F0F0</color>
+    <color name="colorTransparency30">#4D000000</color>
+    <color name="colorTransparency">#00000000</color>
+    <color name="colorE0563F">#E0563F</color>
+    <color name="colorFF7954">#FF7954</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlack50">#8800FF00</color>
+    <color name="colorFCFCFC">#fffcfcfc</color>
+    <color name="color7B7B7B">#7B7B7B</color>
+    <color name="colorECECEC">#ececec</color>
+    <color name="my_bg_start">#E0563F</color>
+    <color name="my_bg_end">#FF7954</color>
+    <color name="my_bg_selected_start">#B63C27</color>
+    <color name="my_bg_selected_end">#E95A33</color>
+    <color name="colorD1">#D1D1D1</color>
+</resources>

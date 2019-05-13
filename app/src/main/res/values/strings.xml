@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ShadowProject</string>
+    <string name="test_shadow">使用layer-list实现阴影</string>
+</resources>

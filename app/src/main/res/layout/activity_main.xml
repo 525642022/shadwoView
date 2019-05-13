@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/shadow_test"
+            android:gravity="center"
+            android:text="@string/test_shadow"
+            android:textColor="@color/colorBlack" />
+
+        <com.example.shadowlibrary.MaskTextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:shadowText="自定义View实现阴影" />
+
+        <com.example.shadowlibrary.ShadowTextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:shadowText="自定义View实现阴影"
+            app:shadowTextRadius="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/shape_27_gradient"
+            android:gravity="center"
+            android:outlineAmbientShadowColor="@color/colorBlack"
+            android:outlineSpotShadowColor="@color/colorBlack50"
+            android:text="android api 28实现的阴影颜色"
+            android:textColor="@color/colorWhite"
+            android:translationZ="10dp"
+            app:elevation="10dp" />
+
+        <com.example.shadowlibrary.MaskViewGroup
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            app:containerCornerRadius="27dp"
+            app:containerDeltaLength="10dp"
+            app:containerShadowColor="@color/colorE9E9E9"
+            app:containerShadowRadius="6dp"
+            app:deltaX="0dp"
+            app:deltaY="-3dp"
+            app:enable="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_27_white"
+                android:gravity="center" />
+        </com.example.shadowlibrary.MaskViewGroup>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
